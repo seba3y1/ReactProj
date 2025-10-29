@@ -112,7 +112,7 @@ export default function UserPostsCard() {
           <p className="text-sm text-gray-600">{selectedUser.email}</p>
         </div>
 
-        <h4 className="font-semibold text-gray-700 mt-4 mb-2">📜 Posts</h4>
+        <h4 className="font-semibold text-gray-700 mt-4 mb-2">Posts</h4>
         {postsLoading || postsFetching ? (
           <p className="text-sm text-gray-500">Loading posts...</p>
         ) : (
@@ -123,7 +123,7 @@ export default function UserPostsCard() {
           </ul>
         )}
 
-        <h4 className="font-semibold text-gray-700 mt-5 mb-2">✅ Todos</h4>
+        <h4 className="font-semibold text-gray-700 mt-5 mb-2">Todos</h4>
         {todosLoading || todosFetching ? (
           <p className="text-sm text-gray-500">Loading todos...</p>
         ) : (
